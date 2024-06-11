@@ -1,0 +1,19 @@
+name: HoloMedals
+author: elsiff
+website: http://elsiff.me
+version: 2.1.0
+main: me.elsiff.holomedals.HoloMedals
+softdepend: [HolographicDisplays, ProtocolLib, PlaceholderAPI]
+commands:
+  holomedals:
+    description: Main command for HoloMedals.
+    aliases: [hm, hmedal, hmedals]
+    permission: holomedals.admin
+    usage: /holomedals
+  medals:
+    desccription: User command for HoloMedals.
+    aliases: [medal, tytul]
+    usage: /medals
+permissions:
+  holomedals.admin:
+    description: Gives ability to use /holomedals.

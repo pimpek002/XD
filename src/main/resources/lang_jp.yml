@@ -1,0 +1,51 @@
+#
+# lang_ja.yml for HoloMedals
+# by kotarobo
+#
+
+version: 210
+
+no-permission: "&e[HoloMedals]&r あなたには権限がありません。"
+in-game-command: "&e[HoloMedals]&r このコマンドはゲーム内のユーザー向けです。"
+player-not-found: "&e[HoloMedals]&r '%s%' という名前のプレイヤーがいません。"
+medal-not-found: "&e[HoloMedals]&r '%s' というメダルが見つかりません。"
+empty-hand: "&e[HoloMedals]&r メダルのアイコンに使うアイテムを手に持つ必要があります。"
+already-taken-name: "&e[HoloMedals]&r '%s' は既に使われています。他の物を試してみてください。"
+not-allowed-character: "&e[HoloMedals]&r '%s' is not allowed character."
+created-medal: "&e[HoloMedals]&r '%s' を作成しました。"
+deleted-medal: "&e[HoloMedals]&r '%s' を削除しました。"
+edited-medal: "&e[HoloMedals]&r '%s' を編集しました。"
+gave-medal: "&e[HoloMedals]&r '%player%' に '%medal%' を与えました。"
+took-medal: "&e[HoloMedals]&r '%player%' から '%medal%' を削除しました。."
+already-selected: "&e[HoloMedals]&r That medal is already being displayed."
+set-display-medal: "&e[HoloMedals]&r %player% の表示メダルを %medal% に設定しました。"
+gained-medal: "&e[HoloMedals]&r 新しいメダルを獲得しました！: %s"
+lost-medal: "&e[HoloMedals]&r メダルを失いました: %s"
+forced-display: "&e[HoloMedals]&r あなたのディスプレイメダルが設定されました: %s"
+already-has: "&e[HoloMedals]&r そのプレイヤーは既にメダルを持っています。"
+doesnt-have: "&e[HoloMedals]&r そのプレイヤーはメダルを持っていません。"
+reloaded: "&e[HoloMedals]&r 設定ファイルと言語ファイルがリロードされました。"
+migration-succeeded: "&e[HoloMedals]&r Medal data have been migrated to MySQL DB."
+migration-failed: "&e[HoloMedals]&r The migration has failed."
+invalid-command: "&e[HoloMedals]&r 無効なコマンドです。"
+
+title-yours: "あなたのメダル"
+title-others: "%s のメダル"
+title-admin: "すべてのメダル"
+icon-unequip-name: "&cメダル非表示"
+icon-unequip-lore:
+- "&9クリックすると表示を停止します。"
+icon-equip-lore:
+- "&9クリックすると表示します。"
+icon-selected:
+- "&9選択"
+icon-admin-name: "&7名前: '%s'"
+icon-previous: "&a前のページ"
+icon-next: "&a次のページ"
+icon-page: "&aページ %d"
+icon-display-medals: "&aSelected Medals:"
+
+old-file: "&c[HoloMedals] あなたの %s は古すぎます！最新の状態にしてください。"
+new-version:
+- "&e[HoloMedals]&r 新しいバージョンが見つかりました。: %s"
+- "&e[HoloMedals]&r https://www.spigotmc.org/resources/holomedals.31223/"
